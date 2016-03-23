@@ -46,7 +46,7 @@ type App interface {
 	Use(web.Handler)
 }
 
-// Chain of handlers
+// Module contains a chain of handlers
 type Module []web.Handler
 
 // New module
